@@ -40,3 +40,5 @@ Também iremos alterar a classe ImovelModel para que passe a herdar as proprieda
 ![Alteração realizada em ImovelModel](documentacao/imagens/aula2-imoveisModel1.png)
 
 
+## Referências
+Introdução a Classes Microsoft - (https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes?WT.mc_id=DX-MVP-5004978)
