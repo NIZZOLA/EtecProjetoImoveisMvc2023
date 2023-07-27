@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Imoveis.Models
 {
-    public class ImovelModel
+    [Table("Imoveis")]
+    public class ImovelModel : BaseModel
     {
         public ImovelModel(TipoImovelEnum tipoImovel, string titulo, decimal valor, string descricao, TipoAnuncioEnum tipoAnuncio,
         decimal metragemTerreno, decimal metragemConstruida, string proprietario, string bairro, string cidade, string estado)
@@ -19,9 +21,6 @@ namespace Imoveis.Models
             Cidade = cidade;
             Estado = estado;
         }
-
-        [Key]
-        public int Id { get; set; }
 
         [Required]
         public TipoImovelEnum TipoImovel { get; set; }

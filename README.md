@@ -28,3 +28,15 @@ Cidade: texto 50 caracteres
 Estado: texto 2 caracteres
 
 Os campos: Tipo de Imóvel e Tipo de Anúncio deverão ser do tipo "Enum".
+
+Aula II - Herança, definição de nome da tabela 
+
+Iremos criar uma classe abstrata (não pode ser instanciada, apenas herdada) com nome BaseModel, para que toda classe criada a partir dela, já carregue propriedades que queremos inserir no banco de dados.
+
+![Classe Abstrata BaseModel](documentacao\imagens\aula2-basemodel.png)
+
+Também iremos alterar a classe ImovelModel para que passe a herdar as propriedades da classe BaseModel
+
+![Alteração realizada em ImovelModel](documentacao\imagens\aula2-imoveisModel1.png)
+
+
