@@ -28,3 +28,8 @@ Cidade: texto 50 caracteres
 Estado: texto 2 caracteres
 
 Os campos: Tipo de Imóvel e Tipo de Anúncio deverão ser do tipo "Enum".
+
+## Referências
+Introdução a Classes Microsoft - (https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes?WT.mc_id=DX-MVP-5004978)
+O que são Enums - (https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/enums?WT.mc_id=DX-MVP-5004978)
+Herança e Abstração - (https://marcionizzola.medium.com/classes-abstratas-x-interfaces-exemplos-com-c-d331ea6f2612)
