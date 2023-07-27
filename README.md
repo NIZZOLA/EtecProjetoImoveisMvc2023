@@ -29,7 +29,7 @@ Estado: texto 2 caracteres
 
 Os campos: Tipo de Imóvel e Tipo de Anúncio deverão ser do tipo "Enum".
 
-Aula II - Herança, definição de nome da tabela 
+## Aula II - Herança, definição de nome da tabela 
 
 Iremos criar uma classe abstrata (não pode ser instanciada, apenas herdada) com nome BaseModel, para que toda classe criada a partir dela, já carregue propriedades que queremos inserir no banco de dados.
 
