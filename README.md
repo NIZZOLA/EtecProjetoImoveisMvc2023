@@ -11,7 +11,7 @@ Entity Framework Core
 Banco de dados Sql Server
 Validação de entidades
 
-## Aula 1
+## Aula 1 - Branch (https://github.com/NIZZOLA/EtecProjetoImoveisMvc2023/tree/aula1-defini%C3%A7%C3%A3o-objetos)
 O modelo inicial do exercício é:
 Crie um projeto ASP.NET MVC onde teremos entidade com 
 Id: inteiro, auto numerado que será utilizado como código do imóvel

@@ -4,9 +4,10 @@ namespace Imoveis.Models
 {
     public class ImovelModel
     {
-        public ImovelModel(TipoImovelEnum tipoImovel, string titulo, decimal valor, string descricao, TipoAnuncioEnum tipoAnuncio,
+        public ImovelModel(int id, TipoImovelEnum tipoImovel, string titulo, decimal valor, string descricao, TipoAnuncioEnum tipoAnuncio,
         decimal metragemTerreno, decimal metragemConstruida, string proprietario, string bairro, string cidade, string estado)
         {
+            Id = id;
             TipoImovel = tipoImovel;
             Titulo = titulo;
             Valor = valor;
